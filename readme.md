@@ -1,4 +1,9 @@
-### Automated zfs snapshot creation and removal for mac
+### Automatic zfs snapshot creation and removal for mac
+
+## Features
+* Works with High Sierra
+* Configurable retention policy
+* If computer was shutdown when snapshot was due to be taken, snapshot will be taken on restart. (only one of each type even if multiple events passed)
 
 ## Installation
 

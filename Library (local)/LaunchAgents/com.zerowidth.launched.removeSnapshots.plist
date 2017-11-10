@@ -5,9 +5,9 @@
 	<key>Label</key>
 	<string>com.zerowidth.launched.removeSnapshots</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/Shared/zfssnapshotErr.log</string>
+	<string>/Users/Shared/zfssnapshot-remove-err.log</string>
 	<key>StandardOutPath</key>
-	<string>/Users/Shared/zfssnapshot.log</string>
+	<string>/Users/Shared/zfssnapshot-remove.log</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>sh</string>
@@ -18,7 +18,7 @@
 		<dict>
 			<key>Minute</key>
 			<integer>0</integer>
-		</dict>		
+		</dict>
 	</array>
 </dict>
 </plist>

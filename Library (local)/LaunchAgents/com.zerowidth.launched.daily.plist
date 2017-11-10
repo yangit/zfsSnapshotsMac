@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.zerowidth.launched.zfsdaily</string>
+	<string>com.zerowidth.launched.daily</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/Shared/zfssnapshotErr.log</string>
+	<string>/Users/Shared/zfssnapshot-daily-err.log</string>
 	<key>StandardOutPath</key>
-	<string>/Users/Shared/zfssnapshot.log</string>
+	<string>/Users/Shared/zfssnapshot-daily.log</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>sh</string>
-		<string>-c</string>
-		<string>/usr/local/bin/zfs snapshot z30/y@daily-$(date +%Y.%m.%d.%H.%M.%S)</string>
+		<string>/Users/Shared/takeSnapshot.sh</string>
+		<string>daily</string>
 	</array>
 	<key>StartCalendarInterval</key>
 	<array>
