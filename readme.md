@@ -3,6 +3,7 @@
 ## Features
 * Works with High Sierra
 * Configurable retention policy
+* Handles many file systems separately
 * If computer was shutdown when snapshot was due to be taken, snapshot will be taken on restart. (only one of each type even if multiple events passed)
 
 ## Installation
