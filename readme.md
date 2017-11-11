@@ -7,8 +7,9 @@
 
 ## Installation
 
-* Copy files to destinations as per folder name
-* Set config in /Users/Shared/removeSnapshots.sh
+* Copy files to destinations as per folder nameh
+* Set `FILESYSTEMS` variable in `removeSnapshots.sh` and `takeSnapshot.sh`
+* Set `TYPES` and `DURATIONS` variables in `removeSnapshots.sh`. These 2 variables match one another.
 * Open permissions by `sudo chmod +s /usr/local/bin/zfs`
 * Run `launchctl load -w ~/Library/LaunchAgents/com.zerowidth.launched.*`
 
