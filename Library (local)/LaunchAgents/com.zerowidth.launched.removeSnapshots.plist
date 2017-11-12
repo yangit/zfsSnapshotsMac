@@ -5,9 +5,9 @@
 	<key>Label</key>
 	<string>com.zerowidth.launched.removeSnapshots</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/Shared/zfssnapshot-remove-err.log</string>
+	<string>/Users/Shared/zfsSnapshot/logs/zfssnapshot-remove-err.log</string>
 	<key>StandardOutPath</key>
-	<string>/Users/Shared/zfssnapshot-remove.log</string>
+	<string>/Users/Shared/zfsSnapshot/logs/zfssnapshot-remove.log</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>sh</string>

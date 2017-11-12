@@ -5,13 +5,13 @@
 	<key>Label</key>
 	<string>com.zerowidth.launched.15min</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/Shared/zfssnapshot-15min-err.log</string>
+	<string>/Users/Shared/zfsSnapshot/logs/zfssnapshot-15min-err.log</string>
 	<key>StandardOutPath</key>
-	<string>/Users/Shared/zfssnapshot-15min.log</string>
+	<string>/Users/Shared/zfsSnapshot/logs/zfssnapshot-15min.log</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>sh</string>
-		<string>/Users/Shared/takeSnapshot.sh</string>
+		<string>/Users/Shared/zfsSnapshot/takeSnapshot.sh</string>
 		<string>15min</string>
 	</array>
 	<key>StartCalendarInterval</key>

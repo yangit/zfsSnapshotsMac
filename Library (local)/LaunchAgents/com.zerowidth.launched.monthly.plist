@@ -5,13 +5,13 @@
 	<key>Label</key>
 	<string>com.zerowidth.launched.monthly</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/Shared/zfssnapshot-hourly-err.log</string>
+	<string>/Users/Shared/zfsSnapshot/logs/zfssnapshot-hourly-err.log</string>
 	<key>StandardOutPath</key>
-	<string>/Users/Shared/zfssnapshot-hourly.log</string>
+	<string>/Users/Shared/zfsSnapshot/logs/zfssnapshot-hourly.log</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>sh</string>
-		<string>/Users/Shared/takeSnapshot.sh</string>
+		<string>/Users/Shared/zfsSnapshot/takeSnapshot.sh</string>
 		<string>monthly</string>
 	</array>
 	<key>StartCalendarInterval</key>

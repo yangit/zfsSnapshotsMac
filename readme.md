@@ -12,6 +12,7 @@
 * Set `FILESYSTEMS` variable in `removeSnapshots.sh` and `takeSnapshot.sh`
 * Set `TYPES` and `KEEP_COUNTS` variables in `removeSnapshots.sh`. These 2 variables match one another.
 * Open permissions by `sudo chmod +s /usr/local/bin/zfs`
+* To re-install `launchctl unload  ~/Library/LaunchAgents/com.zerowidth.launched.*`
 * Run `launchctl load -w ~/Library/LaunchAgents/com.zerowidth.launched.*`
 
 
